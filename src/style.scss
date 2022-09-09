@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #000;
+    position: relative;
+}
+
+pre {
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: .5rem;
+    font-size: .9rem;
+    line-height: .85;
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    font-family: 'Source Code Pro', monospace;
+}
+
+
+.container {
+    canvas {
+        border-radius: .5rem;
+    }
+}
